@@ -209,30 +209,3 @@ h1, h2, h3, h4, h5, h6 {
   .footer {
     padding: var(--footer-padding);
 }
-ul.row {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .col-1-3 {
-    width: 33.33%;
-    float: left;
-    padding: var(--root-element-padding-half);
-  }
-
-  .col-1-2 {
-    width: 50%;
-    float: left;
-    padding: var(--root-element-padding-half);
-  }
-
-  .footer-copyright {
-    margin: 0;
-    font-size: var(--font-size-small);
-    color: var(--text-color);
-  }
-
-  .footer ul {
-    text-align: right;
-  }
