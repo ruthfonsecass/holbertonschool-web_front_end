@@ -89,15 +89,6 @@ h1, h2, h3, h4, h5, h6 {
     --font-size-xx-large: 4.8rem;
     --font-weight-regular: 400;
     --font-weight-bold: 700;
-    --font-weight-regular: 400; /* Peso da fonte regular */
-    --font-weight-bold: 700;    /* Peso da fonte negrito */
-    --font-size-small: 1.2rem;     /* Tamanho pequeno */
-    --font-size-medium: 1.6rem;    /* Tamanho médio */
-    --font-size-large: 1.8rem;     /* Tamanho grande */
-    --font-size-x-large: 2.3rem;   /* Tamanho extra grande */
-    --font-size-xx-large: 4.8rem;  /* Tamanho duplo extra grande */
-    --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --section-header-align: center;
     --section-tagline-transform: uppercase;
     --section-title-margin: 0;
@@ -105,12 +96,9 @@ h1, h2, h3, h4, h5, h6 {
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-weight-bold: 700;
     --color-black: #090909;
     --color-light-grey: #f3f3f3;
-    --section-tagline-transform: uppercase; /* Transformação de texto para maiúsculas */
-    --section-title-margin: 0;
     --section-title-color: var(--color-black);
     --font-size-xx-large: 4.8rem;
     --nav-item-font-family: var(--font-family-title); /* Usando a variável já existente */
@@ -139,12 +127,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
   }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-    font-weight: var(--font-weight-bold); /* Supondo que a propriedade já tenha sido definida anteriormente */
-}
-
-a {
+ a {
     text-decoration: none; /* Remove sublinhados e outras decorações de texto */
 }
 
@@ -216,7 +199,7 @@ a {
 
   .nav .nav-link {
     display: block;
-    padding: calc(var(--root-font-size) / 2) var(--root-font-size); /* Ajustar conforme a definição do tamanho da raiz */
+    padding: 0.5rem 1rem; /* Ajustar conforme a definição do tamanho da raiz */
   }
 
   .nav .nav-link:hover {
