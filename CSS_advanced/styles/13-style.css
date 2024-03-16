@@ -150,22 +150,22 @@ a {
     --font-size-xx-large: 4.8rem;
 }
 
-a[href] {
+a:link {
     text-decoration: none;
   }
   
   /* Estado visitado do link */
-  a[href]:visited {
+  a:visited {
     font-style: italic;
   }
   
   /* Estado hover do link */
-  a[href]:hover {
+  a:hover {
     text-decoration: underline;
   }
   
   /* Estado ativo do link */
-  a[href]:active {
+  a:active {
     background-color: var(--color-light-grey);
   }
 
