@@ -107,6 +107,10 @@ h1, h2, h3, h4, h5, h6 {
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     
     --section-header-align: center;
+    --section-tagline-transform: uppercase;
+
+    --section-title-margin: 0;
+    --section-title-color: var(--color-black);
     
     --line-height-small: 1.2;
     --line-height-base: 1.5;
@@ -146,3 +150,11 @@ a {
     text-transform: var(--section-tagline-transform); /* Transformando o texto para maiúsculas */
     font-weight: var(--font-weight-bold); /* Definindo o peso da fonte para negrito */
 }
+
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
+  }
