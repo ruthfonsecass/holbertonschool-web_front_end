@@ -1,3 +1,72 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+      color: #161616;
+    }
+  
+  a {
+      color: #161616;
+    }
+  
+  .visually-hidden {
+      display: none;
+  }
+  
+  .card-category {
+      color: #D73953;
+    }
+  
+  .section-tagline {
+      color: #D73953;
+  }
+  
+  :root {
+    --color-primary: #d73953;
+    --color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --color-dark-grey: #353535;
+    --text-color: var(--color-black);
+  }
+
+body, a {
+    color: var(--text-color);
+}
+
+.section-tagline, .card-category {
+    color: var(--color-primary);
+}
+:root {
+    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    font-family: var(--font-family-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
+}
+
+:root {
+    --font-size-small: 1.2rem;     /* Tamanho pequeno */
+    --font-size-medium: 1.6rem;    /* Tamanho médio */
+    --font-size-large: 1.8rem;     /* Tamanho grande */
+    --font-size-x-large: 2.3rem;   /* Tamanho extra grande */
+    --font-size-xx-large: 4.8rem;  /* Tamanho duplo extra grande */
+}
+
+html {
+    font-size: 62.5%; /* Faz 1rem equivaler a 10px */
+}
+
+body {
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium); /* Usa a variável definida para tamanho médio */
+}
+
 :root {
     --font-weight-regular: 400; /* Peso da fonte regular */
     --font-weight-bold: 700;    /* Peso da fonte negrito */
