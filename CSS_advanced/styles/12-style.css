@@ -158,22 +158,3 @@ a {
     margin: var(--section-title-margin);
     color: var(--section-title-color);
   }
-
-  a[href] {
-    text-decoration: none;
-  }
-  
-  /* Estado visitado do link */
-  a[href]:visited {
-    font-style: italic;
-  }
-  
-  /* Estado hover do link */
-  a[href]:hover {
-    text-decoration: underline;
-  }
-  
-  /* Estado ativo do link */
-  a[href]:active {
-    background-color: var(--color-light-grey);
-  }

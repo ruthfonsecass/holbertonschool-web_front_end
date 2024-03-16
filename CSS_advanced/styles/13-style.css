@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     
     --section-header-align: center;
     --section-tagline-transform: uppercase;
-    
+
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
     
@@ -142,29 +142,15 @@ a {
 :root {
     --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-weight-bold: 700;
-    --section-tagline-transform: uppercase; /* Transformação de texto para maiúsculas */
+    --color-black: #090909;
     --color-light-grey: #f3f3f3;
+    --section-tagline-transform: uppercase; /* Transformação de texto para maiúsculas */
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
     --font-size-xx-large: 4.8rem;
-    --color-black: #090909;
 }
 
-.section-tagline {
-    font-family: var(--font-family-title); /* Aplicando a família de fontes título */
-    text-transform: var(--section-tagline-transform); /* Transformando o texto para maiúsculas */
-    font-weight: var(--font-weight-bold); /* Definindo o peso da fonte para negrito */
-}
-
-.section-title {
-    font-family: var(--font-family-title);
-    font-size: var(--font-size-xx-large);
-    font-weight: var(--font-weight-bold);
-    margin: var(--section-title-margin);
-    color: var(--section-title-color);
-  }
-
-  a[href] {
+a[href] {
     text-decoration: none;
   }
   
@@ -181,4 +167,18 @@ a {
   /* Estado ativo do link */
   a[href]:active {
     background-color: var(--color-light-grey);
+  }
+
+.section-tagline {
+    font-family: var(--font-family-title); /* Aplicando a família de fontes título */
+    text-transform: var(--section-tagline-transform); /* Transformando o texto para maiúsculas */
+    font-weight: var(--font-weight-bold); /* Definindo o peso da fonte para negrito */
+}
+
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
   }
