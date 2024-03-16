@@ -1,0 +1,12 @@
+:root {
+    --font-weight-regular: 400; /* Peso da fonte regular */
+    --font-weight-bold: 700;    /* Peso da fonte negrito */
+}
+
+body {
+    font-weight: var(--font-weight-regular);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: var(--font-weight-bold);
+}
