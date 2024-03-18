@@ -449,7 +449,22 @@ ul.row {
   .card-work:hover .card-outer {
     transform: scale(0.95);
   }
-  
+
   .nav .nav-link::before {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
+  }
+
+  .button:hover {
+    transition-property: color, background-color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-cubic-bezier);
+  }
+  
+  /* Adicionando transições em .card-work */
+  .card-work:hover .card-image {
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+  }
+  
+  .card-work .card-inner {
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
