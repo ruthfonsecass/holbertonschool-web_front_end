@@ -121,6 +121,8 @@ h1, h2, h3, h4, h5, h6 {
     --font-size-xx-large: 4.8rem;  /* Tamanho duplo extra grande */
     --nav-item-link-hover: var(--color-white);
     --nav-item-link-hover: var(--color-white);
+    --transition-duration: .3s;
+    --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
   }
 
   body {
@@ -437,4 +439,17 @@ ul.row {
     color: #efeded; /* Cor do texto */
     font-size: 10rem; /* Tamanho da fonte */
     z-index: -1; /* Z-index */
+  }
+
+  .card-work:hover .card-image {
+    transform: scale(1.2);
+    transition: transform var(--transition-duration) var(--transition-cubic-bezier);
+  }
+
+  .card-work:hover .card-outer {
+    transform: scale(0.95);
+  }
+  
+  .nav .nav-link::before {
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
