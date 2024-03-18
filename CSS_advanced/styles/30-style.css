@@ -202,7 +202,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 0; /* Posição horizontal */
     background-color: var(--color-white); /* Cor de fundo para a variável --color-white */
     width: 0; /* Largura inicial */
-    height: 0.2rem;
+    height: 20%;
   }
 
   .nav .nav-item:hover .nav-link::before,
