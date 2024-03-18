@@ -106,6 +106,15 @@ h1, h2, h3, h4, h5, h6 {
     --color-white: #ffffff;
     --color-black: #000000;
     --section-title-color: 
+    --button-display: inline-block;
+    --button-padding: 1.5rem 3rem;
+    --button-border: 0.2rem solid var(--color-primary);
+    --button-color: var(--color-black);
+    --button-text-decoration: none;
+    --button-font-size: var(--font-size-large);
+    --button-hover-color: var(--color-white);
+    --button-hover-text-decoration: none;
+    --button-hover-background: var(--color-primary);
   }
 
   body {
@@ -316,7 +325,7 @@ ul.row {
     background: transparent; /* Assume fundo transparente por padrão */
     transition: background-color 0.3s, color 0.3s; /* Adiciona transição suave */
   }
-  
+
   .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
