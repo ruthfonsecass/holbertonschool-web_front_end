@@ -284,7 +284,25 @@ ul.row {
   .social-link {
     display: block;
   }
-  
+
   .social-link svg {
     fill: var(--text-color);
   }
+
+  .card-services .card-title {
+    margin: 0;
+  }
+
+  .card-services a {
+    display: block; /* Faz o link renderizar como um elemento de nível de bloco */
+    padding: calc(2 * 1rem); /* Define o padding para ser 2 vezes o tamanho do elemento raiz, ajuste conforme necessário */
+    background-color: var(--color-light-grey); /* Define a cor de fundo para a variável color-light-grey */
+    text-decoration: none; /* Remove a decoração de texto */
+  }
+
+  .card-services a:hover {
+    color: var(--color-white); /* Define a cor do texto para a variável color-white */
+    background-color: var(--color-primary); /* Define a cor de fundo para a variável color-primary */
+    text-decoration: none; /* Garante que o texto não seja decorado no hover */
+  }
+  
